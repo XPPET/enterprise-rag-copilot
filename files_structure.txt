@@ -1,0 +1,8 @@
+enterprise-rag-copilot/
+│
+├── data/                  # Εδώ ρίχνεις τα PDF (οικονομικές εκθέσεις, πολιτικές κ.λπ.)
+├── storage/               # Εδώ θα αποθηκεύεται αυτόματα το index (η βάση διανυσμάτων)
+├── app.py                 # Το REST API (FastAPI)
+├── rag_engine.py          # Η καρδιά του RAG (ingestion, retrieval, LLM synthesis)
+├── requirements.txt       # Οι βιβλιοθήκες Python
+└── .env                   # Το API key σου
